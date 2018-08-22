@@ -1,0 +1,18 @@
+Source: python-json-rpc
+Maintainer: Evgeny Boger <boger@contactless.ru>
+Section: python
+Priority: optional
+Build-Depends: python3, dh-python, python-setuptools (>= 0.6b3), python-all-dev (>= 2.6.6-3), debhelper (>= 7)
+Standards-Version: 3.9.1
+X-Python-Version: >= 2.3
+X-Python3-Version: >= 3.2
+
+Package: python-json-rpc
+Architecture: all
+Depends: ${python:Depends}, ${misc:Depends}, ${shlibs:Depends}
+Description: JSON-RPC transport realisation
+
+Package: python3-json-rpc
+Architecture: all
+Depends: ${python3:Depends}, ${misc:Depends}, ${shlibs:Depends}
+Description: JSON-RPC transport realisation
