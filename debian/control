@@ -9,10 +9,10 @@ X-Python3-Version: >= 3.2
 
 Package: python-json-rpc
 Architecture: all
-Depends: ${python:Depends}, ${misc:Depends}, ${shlibs:Depends}
-Description: JSON-RPC transport realisation
+Depends: python (>= 2.6.6-3), ${misc:Depends}, ${shlibs:Depends}
+Description: JSON-RPC transport implementation
 
 Package: python3-json-rpc
 Architecture: all
-Depends: ${python3:Depends}, ${misc:Depends}, ${shlibs:Depends}
-Description: JSON-RPC transport realisation
+Depends: python3 (>=3.2.3-6), ${misc:Depends}, ${shlibs:Depends}
+Description: JSON-RPC transport implementation

@@ -1,3 +1,9 @@
+python-json-rpc (1.9.2.wb1) stable; urgency=medium
+
+  * fix deps on wheezy
+
+ -- Evgeny Boger <boger@contactless.ru>  Thu, 04 Oct 2018 11:53:35 +0300
+
 python-json-rpc (1.9.2) stable; urgency=medium
 
   * upstream version
