@@ -1,4 +1,4 @@
-python-json-rpc (1.9.2-wb1) stable; urgency=medium
+python-json-rpc (1.9.2.wb1) stable; urgency=medium
 
   * fix deps on wheezy
 
