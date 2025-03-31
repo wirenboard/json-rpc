@@ -11,3 +11,4 @@ Architecture: all
 Depends: python3 (>=3.2.3-6), ${misc:Depends}, ${shlibs:Depends}
 Conflicts: python3-jsonrpc
 Description: JSON-RPC transport implementation
+ Python implementation of JSON-RPC 1.0 and 2.0
