@@ -1,3 +1,10 @@
+python-json-rpc (1.9.2.wb2) stable; urgency=medium
+
+  * Conflicts with python3-jsonrpc
+  * Drop python2 support
+
+ -- Nikolay Korotkiy <nikolay.korotkiy@wirenboard.com>  Mon, 31 Mar 2025 16:15:00 +0400
+
 python-json-rpc (1.9.2.wb1) stable; urgency=medium
 
   * fix deps on wheezy

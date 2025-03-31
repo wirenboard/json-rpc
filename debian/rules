@@ -4,8 +4,6 @@
 # Tue, 29 Apr 2014 02:27:47 +0400
 
 %:
-	dh $@ --with python2,python3 --buildsystem=pybuild
-
-
+	dh $@ --with python3 --buildsystem=pybuild
 
 override_dh_auto_test:
