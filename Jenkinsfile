@@ -1,1 +1,2 @@
-buildDebArchAll repos: ['release', 'devTools']
+buildDebArchAll repos: ['release', 'devTools'],
+                defaultRunLintian: true
